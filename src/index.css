@@ -1,0 +1,7 @@
+body {
+  padding: 2px;
+  margin: 0;
+}
+h1, h2, p, ul, li {
+  font-family: 'Roboto Slab', sans-serif;
+}

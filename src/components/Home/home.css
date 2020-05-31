@@ -1,0 +1,40 @@
+.main-home {
+    background-color: #878787;
+    height: 100vh;
+    display: flex;
+}
+
+/**
+* Left Side of Homepage
+*/
+.left-side {
+    flex: 2;
+    padding: 5em;
+}
+
+h1 {
+    color: #FFA9E5;
+}
+
+.btn-flat {
+    color: #fff!important;
+    background-color: #753863!important;
+    margin-top: 5em;
+    margin-left: 2em;
+}
+
+.btn-flat:hover {
+    background-color: #FFA9E5!important;
+}
+
+/**
+* Right Side of Homepage
+*/
+
+.right-side {
+    flex: 1;
+}
+
+.myimage {
+    height: 100vh;
+}
