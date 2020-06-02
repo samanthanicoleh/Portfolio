@@ -12,8 +12,16 @@
     padding: 5em;
 }
 
-h1 {
+.main-home h1 {
     color: #FFA9E5;
+}
+
+.main-home h3 {
+    margin-left: 2em;
+}
+
+.main-home p {
+    margin-top: 2em;
 }
 
 .btn-flat {
@@ -21,6 +29,10 @@ h1 {
     background-color: #753863!important;
     margin-top: 5em;
     margin-left: 2em;
+}
+
+.btn-flat:first-of-type {
+    margin-left: 0;
 }
 
 .btn-flat:hover {

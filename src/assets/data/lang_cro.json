@@ -1,0 +1,12 @@
+{
+    "navigation" : {
+        "id" : 0,
+        "navbarElements": ["Početna Stranica", "O meni", "Moji Projekti", "Kontakt"]
+    },
+    "homepage" : {
+        "id" : 1,
+        "header" : ["Samantha Holstead", "Programer za Web i Mobilne Aplikacije"],
+        "aboutme" : "Pozdrav! Zovem se Samantha Holstead. Web i Software Engineer sam. Diplomirala sam na RIT-u (Rochester Institute of Technology) Croatia ove godine s pohvalama. Uživam u programiranju i dizajniranjem skalabilnog softvera. Programiram Web Aplikacije, Mobilne Aplikacije (Android i Swift) i još puno toga. Slobodno me kontaktirajte sa bilo kakvim upitama!",
+        "button" : ["Treba mi web stranica", "Treba mi aplikacija", "Tražim zaposlenika"]
+    }
+}

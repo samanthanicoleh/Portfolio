@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 // my components
 import "./navBar.css";
 import Logo from "../../logo.svg";
+import content from "../../LanguageAPI";
 
 function Navigation() {
   return (
@@ -26,29 +27,24 @@ function Navigation() {
         <Nav className="ml-auto">
           <Nav.Item>
             <Nav.Link eventKey="1" as={Link} exact to="/" className="nav-link">
-              Home
+              {content.navigation.navbarElements[0]}
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link eventKey="2" as={Link} to="/about" className="nav-link">
-              About
+              {content.navigation.navbarElements[1]}
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="3" as={Link} to="/contact" className="nav-link">
-              My Projects
+            <Nav.Link eventKey="3" as={Link} to="/myprojects" className="nav-link">
+              {content.navigation.navbarElements[2]}
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link eventKey="4" as={Link} to="/contact" className="nav-link">
-              Contact
+              {content.navigation.navbarElements[3]}
             </Nav.Link>
           </Nav.Item>
-          <NavDropdown title="Language" id="basic-nav-dropdown">
-            <NavDropdown.Item> English </NavDropdown.Item>
-            <NavDropdown.Item> Croatian </NavDropdown.Item>
-            <NavDropdown.Item> German </NavDropdown.Item>
-          </NavDropdown>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

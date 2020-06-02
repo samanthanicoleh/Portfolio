@@ -5,6 +5,7 @@ import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 // my components
 import './home.css'
+import content from "../../LanguageAPI";
 import MyImage from '../../assets/images/myimage.png';
 import LanguageFooter from '../Footer/footer';
 
@@ -13,12 +14,14 @@ class Home extends Component {
         return (  
             <div className="main-home">
                 <div className="left-side">
-                    <h1> Hello! </h1>
-                    My name is Samantha Holstead and I graduated from RIT Croatia with honours this year.
+                    <h1> {content.homepage.header[0]} </h1>
+                    <h3> {content.homepage.header[1]} </h3> 
+                    <p> {content.homepage.aboutme}
+                    </p>
                     <br/>
-                    <Button variant="flat"> I need a website <FontAwesomeIcon icon={faChevronRight} /> </Button>
-                    <Button variant="flat"> I need an app <FontAwesomeIcon icon={faChevronRight} /> </Button>
-                    <Button variant="flat"> I'm looking to hire <FontAwesomeIcon icon={faChevronRight} /> </Button>
+                    <Button variant="flat"> {content.homepage.button[0]} <FontAwesomeIcon icon={faChevronRight} /> </Button>
+                    <Button variant="flat"> {content.homepage.button[1]} <FontAwesomeIcon icon={faChevronRight} /> </Button>
+                    <Button variant="flat"> {content.homepage.button[2]} <FontAwesomeIcon icon={faChevronRight} /> </Button>
                 </div>
                 <div className="right-side">
                     <img className="myimage" src={MyImage} alt="Image of me." />  
