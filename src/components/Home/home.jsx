@@ -23,9 +23,6 @@ class Home extends Component {
                     <Button variant="flat"> {content.homepage.button[1]} <FontAwesomeIcon icon={faChevronRight} /> </Button>
                     <Button variant="flat"> {content.homepage.button[2]} <FontAwesomeIcon icon={faChevronRight} /> </Button>
                 </div>
-                <div className="right-side">
-                    <img className="myimage" src={MyImage} alt="Image of me." />  
-                </div>
                 <LanguageFooter/>
             </div>
 

@@ -1,0 +1,34 @@
+.main-contact {
+    padding-bottom: 1em;
+}
+
+.main-contact h3 {
+    color: #878787;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.main-contact .submit-btn {
+    float: right;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-imgs {
+    width: 10em;
+    height: 10em;
+    margin-top: 2.5em;
+}
+
+.main-contact a {
+    color: #753863;
+    font-family: 'Raleway', sans-serif;
+}
+
+.main-contact a:hover {
+    color: #C271AA;
+}

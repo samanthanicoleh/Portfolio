@@ -1,3 +1,8 @@
+hr {
+	border-top: 1px dotted #8c8b8b;
+	margin: 3em;
+}
+
 .myimage-about {
   width: 12em;
   height: 12em;
@@ -7,9 +12,12 @@
   margin-right: auto;
 }
 
+.main-about {
+	padding-bottom: 3em;
+}
+
 .main-about h3 {
-  margin-left: 1em;
-  margin-top: 1em;
+  margin: 1em;
   color: #878787;
 }
 
@@ -21,8 +29,10 @@
 /**
 * "Companies I work with" Section
 */
-.description-section {
+.description-section, .technologies-section {
   padding-right: 3em;
+  margin-top: 4em;
+  margin-bottom: 4em;
 }
 
 .hvrbox,
@@ -100,7 +110,7 @@
 */
 .quote {
   color: #753863;
-  margin-top: 2em;
+  margin: 2em;
   font-style: italic;
 }
 
@@ -123,8 +133,8 @@
 }
 
 .techlogos {
-	width: 9em;
-	height: 10em;
+	width: 5em;
+	height: 5em;
 	margin-left: 5em;
 	margin-top: 2em;
 }
@@ -134,3 +144,60 @@
 	margin-left: 3em;
 	margin-top: 2em;
 }
+
+/**
+* "More about me" Section
+*/
+.second-row {
+	margin-top: 3em;
+}
+.aboutme-icon {
+	color: #FFA9E5;
+	width: 10em!important;
+	height: 10em!important;
+	margin-top: 3em;
+	margin-left: 1em;
+}
+
+.paw-icon {
+	margin-left: 6em;
+	float: left;
+}
+
+.hobby-icon {
+	float: left;
+}
+
+.bottom-icon {
+	float: right;
+}
+
+.hide {
+	display: none;
+}
+
+.favourites:hover + .hide {
+	display: block;
+}
+
+.hiddenimg {
+	border-radius: 50em;
+	width: 7.5em;
+	height: 7.5em;
+	float: left;
+	margin-left: 3em;
+	padding: 0.5em;
+}
+
+.aboutme-title {
+	color: #878787;
+}
+
+.bottom-title {
+	float: right;
+}
+
+.bottom-imgs {
+	margin-top: 3em;
+}
+

@@ -8,5 +8,15 @@
         "header" : ["Samantha Holstead", "Programer za Web i Mobilne Aplikacije"],
         "aboutme" : "Pozdrav! Zovem se Samantha Holstead. Web i Software Engineer sam. Diplomirala sam na RIT-u (Rochester Institute of Technology) Croatia ove godine s pohvalama. Uživam u programiranju i dizajniranjem skalabilnog softvera. Programiram Web Aplikacije, Mobilne Aplikacije (Android i Swift) i još puno toga. Slobodno me kontaktirajte sa bilo kakvim upitama!",
         "button" : ["Treba mi web stranica", "Treba mi aplikacija", "Tražim zaposlenika"]
+    },
+    "aboutpage" : {
+        "id" : 2,
+        "alt": "Slika mene",
+        "header": ["Firme s kojima sam radila", "(pomaknite pokazivač preko slike za više detalja)", "Kako ljudi opisuju rad sa mnom", "Tehnologije koje koristim", "Više o meni"],
+        "jobtitle": ["Applications Developer", "Asistent Profesoru: Secure Web Development", "Web programer: Senior Development Project"],
+        "jobperiod": ["Ljeto 2018 i Ljeto 2019", "Siječanj, 2020 - Lipanj, 2020", "Rujan, 2019 - Svibanj, 2020"],
+        "quotes": ["'Samantin rad je vrhunski i bila bi vrijedan član bilo kojem timu!'", "'... bila je uvijek na raspolaganju i vrlo brza svojim radom. Ne bi razmišljala dva puta prije pomaganja i s time ubrzala proces učenja za nas ostale ...'",  "'Volio bih opet raditi sa njom, bilo je zabavno, učinkovito i produktivno.'"],
+        "technologiesheaders": ["Web Razvoj", "Mobilni Razvoj", "Testiranje", "Razvoj Softvera", "Source Control", ".. i više!" ],
+        "favouritesheaders": ["Moji Ljubimci", "Moji Hobiji", "Jezike", "My Favoriti"]
     }
 }
