@@ -22,7 +22,7 @@ import GermanFlag from "../../assets/images/aboutme/german.png";
 import DogImage from "../../assets/images/aboutme/dog.png";
 import PizzaImage from "../../assets/images/aboutme/pizza.jpg";
 import "./about.css";
-import LanguageFooter from "../Footer/footer";
+import LanguageFooter from "../../components/Footer/footer";
 import content from "../../LanguageAPI";
 // companies logos
 import ImgTecLogo from "../../assets/images/logos/imaginationlogo.png";

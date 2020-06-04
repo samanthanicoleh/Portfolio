@@ -4,9 +4,9 @@ import "./App.css";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import Home from "./components/Home/home";
-import About from "./components/About/about";
-import Contact from "./components/Contact/contact";
+import Home from "./pages/Home/home";
+import About from "./pages/About/about";
+import Contact from "./pages/Contact/contact";
 
 class App extends Component {
   render() {

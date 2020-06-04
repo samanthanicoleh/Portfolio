@@ -7,7 +7,7 @@ import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import './home.css'
 import content from "../../LanguageAPI";
 import MyImage from '../../assets/images/myimage.png';
-import LanguageFooter from '../Footer/footer';
+import LanguageFooter from '../../components/Footer/footer';
 
 class Home extends Component {
     render() { 
