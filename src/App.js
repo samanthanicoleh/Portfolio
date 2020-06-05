@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
 import NavBar from "./components/Navigation/navBar";
 import "./App.css";
 
@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home/home";
 import About from "./pages/About/about";
 import Contact from "./pages/Contact/contact";
+import Projects from "./pages/Projects/myprojects";
 
 class App extends Component {
   render() {
@@ -23,6 +24,9 @@ class App extends Component {
             </Route>
             <Route exact path="/contact">
               <Contact />
+            </Route>
+            <Route exact path="/myprojects">
+              <Projects />
             </Route>
           </Switch>
         </Router>

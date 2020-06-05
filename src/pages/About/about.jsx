@@ -254,12 +254,12 @@ function About() {
                   <img
                     className="hiddenimg medo"
                     src={DogImage}
-                    alt="Image of dog."
+                    alt="Cartoon dog"
                   />
                   <img
                     className="hiddenimg bella"
                     src={PizzaImage}
-                    alt="Image of Pizza."
+                    alt="Pizza."
                   />
                 </div>
               </div>

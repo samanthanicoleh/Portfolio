@@ -18,5 +18,20 @@
         "quotes": ["'Samantha's work is top notch and she would be a valuable teammate to any team!'", "'... she was always available and very quick with her work. She did not hesitate to help and speed up the learning process for the rest of us ...'",  "'I would love to work with Samantha again, it was fun, efficient and productive.'"],
         "technologiesheaders": ["Web Development", "Mobile Development", "Testing", "Software Development", "Source Control", ".. and more!" ],
         "favouritesheaders": ["My Pets", "My Hobbies", "Languages", "My Favourites"]
+    },
+    "contactpage" : {
+        "id" : 3,
+        "header": "Contact Me!",
+        "formlabel": ["Your Name", "Your Email", "Subject", "Message"],
+        "formtext": "Your email will never be shared with anyone else.",
+        "formplaceholder": ["Enter your name", "Enter Email", "Enter message title", "Enter your message"],
+        "button": "Submit",
+        "links": ["Link to LinkedIn Profile", "Link to GitHub Profile"]
+    },
+    "projectspage" : {
+        "id" : 4,
+        "headers" : ["My Projects", "Health Tourism Project", "Coursework Projects"],
+        "healthtourismdesc" : "I worked on this project with 3 others as part of our Senior Development Project for university. It was great to experience work with others. Our web application was chosen by the sponsors and is now used by them.",
+        "healthtourismguide" : ["Find the website", "here"]
     }
 }

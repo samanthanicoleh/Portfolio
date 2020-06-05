@@ -19,9 +19,21 @@ function LanguageFooter() {
             <img className="flag-img" src={BritishIcon} alt="English" onClick={e => { localStorage.setItem("language", 0) 
             window.location.reload()}}/>
             </OverlayTrigger>
+            <OverlayTrigger overlay={
+                <Tooltip id="language-tooltip">
+                    Translated by me :)
+                </Tooltip>
+            }>
             <img className="flag-img" src={CroatianIcon} alt="Croatian" onClick={e => {localStorage.setItem("language", 1)
             window.location.reload()}}/>
+            </OverlayTrigger>
+            <OverlayTrigger overlay={
+                <Tooltip id="language-tooltip">
+                    Translated by me :)
+                </Tooltip>
+            }>
             <img className="flag-img" src={GermanIcon} alt="German"/> 
+            </OverlayTrigger>
         </div>
     );
 }
