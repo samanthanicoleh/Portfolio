@@ -9,7 +9,7 @@ import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 
 // my components
-import PhoneImage from "../../assets/images/projects/phone.jpg";
+import PhoneImage from "../../assets/images/projects/menuapppreview.png";
 
 const useStyles = makeStyles({
   root: {

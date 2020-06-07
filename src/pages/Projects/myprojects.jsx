@@ -6,6 +6,7 @@ import { faCircle } from "@fortawesome/free-solid-svg-icons";
 // my components
 import "./myprojects.css";
 import HTImage from "../../assets/images/projects/healthtourismproject.jpg";
+import MenuAppImage from "../../assets/images/projects/menuapppreview.png";
 import content from "../../LanguageAPI";
 import LanguageFooter from "../../components/Footer/footer";
 

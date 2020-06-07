@@ -19,11 +19,17 @@ class Contact extends Component {
               <Form>
                 <Form.Group controlId="formName">
                   <Form.Label> {content.contactpage.formlabel[0]} </Form.Label>
-                  <Form.Control type="name" placeholder={content.contactpage.formplaceholder[0]} />
+                  <Form.Control
+                    type="name"
+                    placeholder={content.contactpage.formplaceholder[0]}
+                  />
                 </Form.Group>
                 <Form.Group controlId="formEmail">
                   <Form.Label> {content.contactpage.formlabel[1]} </Form.Label>
-                  <Form.Control type="email" placeholder={content.contactpage.formplaceholder[1]} />
+                  <Form.Control
+                    type="email"
+                    placeholder={content.contactpage.formplaceholder[1]}
+                  />
                   <Form.Text className="text-muted">
                     {" "}
                     {content.contactpage.formtext}
@@ -51,23 +57,25 @@ class Contact extends Component {
               </Form>
             </Col>
             <Col className="right-side">
-              <img
-                className="contact-imgs"
-                src={LinkedInLogo}
-                alt="LinkedIn Logo."
-              />
-              <a href="https://www.linkedin.com/in/samantha-holstead-331135151">{content.contactpage.links[0]}</a>
+              <a href="https://www.linkedin.com/in/samantha-holstead-331135151">
+                <img
+                  className="contact-imgs"
+                  src={LinkedInLogo}
+                  alt="LinkedIn Logo."
+                />
+              </a>
 
-              <img
-                className="contact-imgs"
-                src={GitHubLogo}
-                alt="GitHub Logo."
-              />
-              <a href="https://github.com/samanthanicoleh">{content.contactpage.links[1]}</a>
+              <a href="https://github.com/samanthanicoleh">
+                <img
+                  className="contact-imgs"
+                  src={GitHubLogo}
+                  alt="GitHub Logo."
+                />
+              </a>
             </Col>
           </Row>
         </Container>
-        <LanguageFooter/>
+        <LanguageFooter />
       </div>
     );
   }

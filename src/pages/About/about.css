@@ -3,11 +3,18 @@ hr {
 	margin: 3em;
 }
 
+.about-header {
+	background-color: #fadef4;
+	height: auto;
+    overflow: hidden;
+    margin: 50px;
+    box-shadow: 0px 0px 0px 2em #fadef4;
+}
+
 .myimage-about {
   width: 12em;
   height: 12em;
   display: block;
-  margin-top: 2em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -108,6 +115,14 @@ hr {
 /**
 * "How people describe working with me" Section
 */
+.description-section {
+	background-color: #fadef4;
+	height: auto;
+	overflow: hidden;
+	margin: 3em 0px 3em 0px;
+	box-shadow: 0px 0px 2em 2em #fadef4;
+}
+
 .quote {
   color: #753863;
   margin: 2em;
@@ -139,10 +154,25 @@ hr {
 	margin-top: 2em;
 }
 
+.longerimg {
+	width: 7em!important;
+}
+
 .testingspan {
 	font-size: 2em;
 	margin-left: 3em;
 	margin-top: 2em;
+}
+
+/**
+* "Certificates" Section
+*/
+.certificate-section {
+	background-color: #fadef4;
+	height: auto;
+	overflow: hidden;
+	margin: 3em 0px 3em 0px;
+    box-shadow: 0px 0px 2em 2em #fadef4;
 }
 
 /**
@@ -152,7 +182,7 @@ hr {
 	margin-top: 3em;
 }
 .aboutme-icon {
-	color: #FFA9E5;
+	color: #C271AA;
 	width: 10em!important;
 	height: 10em!important;
 	margin-top: 3em;
