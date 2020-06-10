@@ -1,0 +1,39 @@
+{
+    "navigation" : {
+        "id" : 0,
+        "navbarElements": ["Startseite", "Über mich", "Meine Projekte", "Kontakt"]
+    },
+    "homepage" : {
+        "id" : 1,
+        "header" : ["Samantha Holstead", "Entwicklerin von Web- und Mobil Applikation"],
+        "aboutme" : "Halo! Mein Name ist Samantha Holstead und ich bin Web- und Software-Ingenieurin. Ich habe dieses Jahr das RIT (Rochester Institute of Technology) Croatia mit Auszeichnung abgeschlossen. Ich genieße es, skalierbare Software zu entwickeln und zu entwerfen. Ich entwickle Webanwendungen, mobile Anwendungen (Android und Swift) und mehr. Ich genieße es, Code zu testen und sicherzustellen, dass Code reibungslos funktioniert. Fühlen Sie sich frei, mich zu kontaktieren.",
+        "button" : ["Ich brauche eine Website", "Ich brauche eine App", "Ich suche eine Entwicklerin"]
+    },
+    "aboutpage" : {
+        "id" : 2,
+        "alt": "Bild von mir",
+        "header": ["Firmen, mit denen ich zusammengearbeitet habe", "(bewegen Sie den Mauszeiger, um weitere Details anzeigen)", "Wie beschreiben die Leute die Arbeit mit mir?", "Technologien, die ich verwendet habe", "Zusätzliche Zertifikate", "Mehr über mich"],
+        "jobtitle": ["Anwendungsentwicklerin", "Lehrassistentin: Sichere Webentwicklung", "Web-Entwicklerin: Senior Development Projekt"],
+        "jobperiod": ["Sommer 2018 und Sommer 2019", "Januar 2020 - Juni 2020", "September 2019 - Mai 2020"],
+        "quotes": ["'Samanthas Arbeit ist erstlkassig und sie wäre eine wertvolle Teamkollegin für jedes Team!'", "'... sie war immer verfügbar und sehr schnell bei ihrer Arbeit. Sie zögerte nicht, zu helfen und den Lernprozess für den Rest von uns zu beschleunigen ...'",  "'Ich würde gerne wieder mit Samantha arbeiten, es hat Spaß gemacht, war effizient und produktiv.'"],
+        "technologiesheaders": ["Web Entwicklung", "Mobile Entwicklung", "Code Testen", "Software-Entwicklung", "Source Code Control", ".. und mehr!" ],
+        "favouritesheaders": ["Meine Haustiere", "Meine Hobbies", "Sprachen", "Meine Favoriten"]
+    },
+    "contactpage" : {
+        "id" : 3,
+        "header": "Kontaktiere mich!",
+        "formlabel": ["Dein Name", "Deine E-mail", "Titel", "Nachricht"],
+        "formtext": "Ihre E-mail wird niemals an Dritte weitergegeben.",
+        "formplaceholder": ["Geben Sie Ihren Namen ein", "Geben Sie Ihre E-Mail ein", "Geben Sie Ihren Nachrichtentitel ein", "Geben Sie Ihre Nachricht ein"],
+        "button": "Senden",
+        "links": ["Link zum LinkedIn-Profil", "Link zum GitHub-Profil"]
+    },
+    "projectspage" : {
+        "id" : 4,
+        "headers" : ["Meine Projekte", "Gesundheitstourismus-Projekt", "Uni-Projekte"],
+        "healthtourismdesc" : "Ich habe mit 3 anderen an diesem Projekt im Rahmen unseres Senior Development Project für die Universität gearbeitet. Es war toll, die Arbeit mit anderen zu erleben. Unsere Webanwendung wurde von den Sponsoren ausgewählt und die Anwendung wird nun von ihnen verwendet.",
+        "healthtourismguide" : ["Finden Sie die Website", "hier"],
+        "projectlink": "Link zum Projekt",
+        "projectsdesc": ["Eine Kotlin entwickelte Android-Anwendung, mit der Essen online bestellz werden können. In Node.js erstellte API.", "Eine in Swift entwickelte App, mit der Benutzer Tiere adoptieren können. Enthält einen Algorithmus, mit dem der Benutzer dem am besten geeigneten Haustier zugeordnet werden kann.", "Eine Webanwendung, um das Spiel 'Martian Dice' online zu spielen. Erstellt mit XAMPP."]
+    }
+}
