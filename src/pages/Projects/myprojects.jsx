@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import { Container, Col, Row, Card, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircle } from "@fortawesome/free-solid-svg-icons";
@@ -7,10 +7,11 @@ import { faCircle } from "@fortawesome/free-solid-svg-icons";
 import "./myprojects.css";
 import HTImage from "../../assets/images/projects/healthtourismproject.jpg";
 import MenuAppImage from "../../assets/images/projects/menuapppreview.png";
+import RescuePetsImage from "../../assets/images/projects/rescuepetspreview.png";
 import content from "../../LanguageAPI";
 import LanguageFooter from "../../components/Footer/footer";
 
-import CourseworkCard from "../../components/Cards/card";
+import MediaCard from "../../components/Cards/card";
 
 class Projects extends Component {
   render() {
@@ -39,7 +40,32 @@ class Projects extends Component {
           <h3> {content.projectspage.headers[2]} </h3>
           <Row className="coursework-projects">
             <Col>
-              <CourseworkCard  />
+              <Row>
+                <div className="coursework-item">
+                  <MediaCard
+                    cardtitle="Menu App"
+                    cardimage={MenuAppImage}
+                    carddesc={content.projectspage.projectsdesc[0]}
+                    cardlink="https://github.com/samanthanicoleh/MenuApp"
+                  />
+                </div>
+                <div className="coursework-item">
+                  <MediaCard
+                    cardtitle="Rescue Pets"
+                    cardimage={RescuePetsImage}
+                    carddesc={content.projectspage.projectsdesc[1]}
+                    cardlink="https://github.com/samanthanicoleh/RescuePets"
+                  />
+                </div>
+                <div className="coursework-item">
+                  <MediaCard
+                    cardtitle="Martian Dice"
+                    cardimage={RescuePetsImage}
+                    carddesc={content.projectspage.projectsdesc[2]}
+                    cardlink="https://github.com/samanthanicoleh/MartianDice"
+                  />
+                </div>
+              </Row>
             </Col>
           </Row>
         </Container>

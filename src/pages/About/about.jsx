@@ -169,7 +169,7 @@ function About() {
           {content.aboutpage.technologiesheaders[4]}{" "}
         </h4>
         <img className="techlogos" src={GitHubLogo} alt="GitHub Logo" />
-        <img className="techlogos" src={PerforceLogo} alt="Perforce Logo" />
+        <img className="techlogos longerimg" src={PerforceLogo} alt="Perforce Logo" />
 
         <h4 className="technologies-headers">
           {" "}

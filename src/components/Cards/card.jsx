@@ -1,50 +1,46 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
-import CardActionArea from "@material-ui/core/CardActionArea";
 import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
+import { withStyles } from "@material-ui/core/styles";
 
 // my components
-import PhoneImage from "../../assets/images/projects/menuapppreview.png";
+import content from "../../LanguageAPI";
 
-const useStyles = makeStyles({
+const useStyles = {
   root: {
-    maxWidth: 345,
+    maxWidth: 300,
   },
   media: {
-    height: 140,
+    height: 200,
   },
-});
+};
 
-function MediaCard () {
-    const classes = useStyles();
-
+class MediaCard extends React.Component {
+  render() {
+    const { classes, cardtitle, cardimage, carddesc, cardlink } = this.props;
     return (
       <Card className={classes.root}>
-        <CardActionArea>
-          <CardMedia className={classes.media} image={PhoneImage} />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="h2">
-              Menu App
-            </Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
-              Lizards are a widespread group of squamate reptiles, with over
-              6,000 species, ranging across all continents except Antarctica
-            </Typography>
-          </CardContent>
-        </CardActionArea>
+        <CardMedia className={classes.media} image={cardimage} />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+            {cardtitle}
+          </Typography>
+          <Typography variant="body2" color="textSecondary" component="p">
+            {carddesc}
+          </Typography>
+        </CardContent>
         <CardActions>
           <Button size="small" color="primary">
-            Link
+            <a href={cardlink}> {content.projectspage.projectlink} </a>
           </Button>
         </CardActions>
       </Card>
     );
-  
+  }
 }
 
-export default MediaCard;
+export default withStyles(useStyles)(MediaCard);

@@ -30,8 +30,6 @@
 /**
 * Coursework
 */
-.mobileapp-image {
-    width: 3em;
-    height: 3em;
-    margin: 0 auto;
+.coursework-item {
+    padding: 1em;
 }

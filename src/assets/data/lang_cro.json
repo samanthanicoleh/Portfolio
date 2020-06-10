@@ -32,6 +32,8 @@
         "id" : 4,
         "headers" : ["Moji Projekti", "Health Tourism Projekt", "Projekti sa fakulteta"],
         "healthtourismdesc" : "Radila sam na ovom projektu sa još 3 ljudi kao dio našeg zajedničkog završnog projekta za fakultet. Bilo je jako dobro iskusiti rad sa drugima. Naša web applikacija je bila izabrana, i sada je korištena, od strane sponzora.",
-        "healthtourismguide" : ["Web aplikaciju možete pronaći", "ovdje"]
+        "healthtourismguide" : ["Web aplikaciju možete pronaći", "ovdje"],
+        "projectlink": "Link na projekt",
+        "projectsdesc": ["Android aplikacija napravljena u Kotlinu u kojem se može naručiti hrana online. API napravljen u Node.js.", "Aplikacija napravljen u Swift-u gdje korisnici mogu udomiti životinje. Uključuje algoritam za prilagođavanje korisnika najboljem ljubimcu.", "Web aplikacija gdje se može igrati igru 'Martian Dice' online. Napravljeno koristeći XAMPP."]
     }
 }
