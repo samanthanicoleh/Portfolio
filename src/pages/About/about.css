@@ -173,7 +173,21 @@ hr {
 	height: auto;
 	overflow: hidden;
 	margin: 3em 0px 3em 0px;
-    box-shadow: 0px 0px 2em 2em #fadef4;
+	box-shadow: 0px 0px 2em 2em #fadef4;
+}
+
+.certificate-columns {
+	margin-left: 2em;
+}
+
+.certificate-columns p {
+	margin-top: 2em;
+	margin-left: 2em;
+}
+
+.certificate-img {
+	width: 15em;
+	height: auto;
 }
 
 /**

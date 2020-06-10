@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Component} from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faClock,
@@ -44,8 +44,11 @@ import JavaLogo from "../../assets/images/technologies/java.png";
 import PythonLogo from "../../assets/images/technologies/python.png";
 import GitHubLogo from "../../assets/images/technologies/github.png";
 import PerforceLogo from "../../assets/images/technologies/perforce.png";
+// certificates
+import ESCertificate from "../../assets/images/certificates/es_certificate.png";
 
-function About() {
+class About extends Component {
+  render() {
   return (
     <div className="main-about">
       <Row className="about-header">
@@ -178,9 +181,12 @@ function About() {
       </div>
       <div className="certificate-section">
         <h3> {content.aboutpage.header[4]} </h3>
-        <h6 className="quote quote-one"> {content.aboutpage.quotes[0]} </h6>
-        <h6 className="quote quote-two"> {content.aboutpage.quotes[1]} </h6>
-        <h6 className="quote quote-three"> {content.aboutpage.quotes[2]} </h6>
+        <Row>
+          <Col className="certificate-columns">
+            <img className="certificate-img" src={ESCertificate} alt="Elasticsearch certificate"/>
+            <p> Elasticsearch Course</p>
+          </Col>
+        </Row>
       </div>
       <div className="more-section">
         <h3> {content.aboutpage.header[5]} </h3>
@@ -300,6 +306,7 @@ function About() {
       <LanguageFooter />
     </div>
   );
+  }
 }
 
 export default About;

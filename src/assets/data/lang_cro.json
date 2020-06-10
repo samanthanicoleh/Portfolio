@@ -12,7 +12,7 @@
     "aboutpage" : {
         "id" : 2,
         "alt": "Slika mene",
-        "header": ["Firme s kojima sam radila", "(pomaknite pokazivač preko slike za više detalja)", "Kako ljudi opisuju rad sa mnom", "Tehnologije koje koristim",  "Diplome", "Više o meni"],
+        "header": ["Firme s kojima sam radila", "(pomaknite pokazivač preko slike za više detalja)", "Kako ljudi opisuju rad sa mnom", "Tehnologije koje koristim",  "Dodatne Diplome", "Više o meni"],
         "jobtitle": ["Applications Developer", "Asistent Profesoru: Secure Web Development", "Web programer: Senior Development Project"],
         "jobperiod": ["Ljeto 2018 i Ljeto 2019", "Siječanj, 2020 - Lipanj, 2020", "Rujan, 2019 - Svibanj, 2020"],
         "quotes": ["'Samantin rad je vrhunski i bila bi vrijedan član bilo kojem timu!'", "'... bila je uvijek na raspolaganju i vrlo brza svojim radom. Ne bi razmišljala dva puta prije pomaganja i s time ubrzala proces učenja za nas ostale ...'",  "'Volio bih opet raditi sa njom, bilo je zabavno, učinkovito i produktivno.'"],
