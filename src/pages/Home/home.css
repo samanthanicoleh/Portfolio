@@ -1,34 +1,32 @@
 .main-home {
     position: absolute;
     top: 0;
+    left:0;
     z-index: -1;
     background-image: url("../../assets/images/laptop.jpg");
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
     height: 100vh;
     display: flex;
 }
 
-/**
-* Left Side of Homepage
-*/
-.left-side {
-    flex: 2;
-    padding: 5em;
-    margin-top: 1em;
-}
-
 .main-home h1 {
     color: #FFA9E5;
+    margin-top: 1em;
 }
 
 .main-home h3 {
     margin-left: 2em;
+    margin-top: 1em;
     color:#CFCFCF;
 }
 
 .main-home p {
     margin-top: 2em;
     color:#CFCFCF;
+    padding-left: 10em;
+    padding-right: 10em;
+    margin-top: 2em;
 }
 
 .btn-flat {
@@ -46,14 +44,6 @@
     background-color: #8f3f77!important;
 }
 
-/**
-* Right Side of Homepage
-*/
-
-.right-side {
-    flex: 1;
-}
-
-.myimage {
-    height: 100vh;
+.buttons {
+    text-align: center;
 }

@@ -32,3 +32,17 @@
     transform: rotate(360deg);
   }
 }
+
+.row {
+  width: 100%;
+}
+
+.column {
+  text-align: center;
+}
+
+.headline {
+  text-align: center;
+  padding-top: 2em;
+  font-size: 3em;
+}

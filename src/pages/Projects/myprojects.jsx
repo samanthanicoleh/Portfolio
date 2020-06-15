@@ -17,7 +17,7 @@ class Projects extends Component {
   render() {
     return (
       <div className="main-projects">
-        <h1> {content.projectspage.headers[0]} </h1>
+        <h1 className="headline"> {content.projectspage.headers[0]} </h1>
         <Container>
           <h3> {content.projectspage.headers[1]} </h3>
           <Row>

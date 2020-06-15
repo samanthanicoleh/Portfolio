@@ -49,9 +49,9 @@ class Contact extends Component {
     return (
       <div className="main-contact">
         <Container>
+          <h1 className="headline"> {content.contactpage.header}</h1>
           <Row>
             <Col>
-              <h3> {content.contactpage.header} </h3>
               <Form onSubmit={this.handleSubmit.bind(this)} className="contact_form">
                 <Form.Group controlId="formName">
                   <Form.Label> {content.contactpage.formlabel[0]} </Form.Label>

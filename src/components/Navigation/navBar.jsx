@@ -10,7 +10,7 @@ import content from "../../LanguageAPI";
 
 function Navigation() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+    <Navbar fixed="top" collapseOnSelect expand="lg" bg="light" variant="light">
       <Navbar.Brand className="nav-brand">
         <img
           src={Logo}

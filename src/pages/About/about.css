@@ -3,15 +3,6 @@ hr {
 	margin: 3em;
 }
 
-.about-header {
-	background-color: #fadef4;
-	height: auto;
-	overflow: hidden;
-	
-	margin: 3em 0px 3em 0px;
-    box-shadow: 0px 0px 2em 2em #fadef4;
-}
-
 .myimage-about {
   width: 12em;
   height: 12em;
@@ -117,11 +108,9 @@ hr {
 * "How people describe working with me" Section
 */
 .description-section {
-	background-color: #fadef4;
 	height: auto;
 	overflow: hidden;
 	margin: 3em 0px 3em 0px;
-	box-shadow: 0px 0px 2em 2em #fadef4;
 }
 
 .quote {
@@ -169,11 +158,9 @@ hr {
 * "Certificates" Section
 */
 .certificate-section {
-	background-color: #fadef4;
 	height: auto;
 	overflow: hidden;
 	margin: 3em 0px 3em 0px;
-	box-shadow: 0px 0px 2em 2em #fadef4;
 }
 
 .certificate-columns {

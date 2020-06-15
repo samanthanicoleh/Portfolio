@@ -51,13 +51,12 @@ class About extends Component {
   render() {
   return (
     <div className="main-about">
-      <Row className="about-header">
-        <img
+        <h1 className="headline">About me</h1>
+        {/* <img
           className="myimage-about"
           src={MyImage}
           alt={content.aboutpage.alt}
-        />
-      </Row>
+        /> */}
       <div className="companies-section">
         <h3> {content.aboutpage.header[0]} </h3>
         <h5>{content.aboutpage.header[1]}</h5>
@@ -121,12 +120,14 @@ class About extends Component {
           </Col>
         </Row>
       </div>
+      <hr />
       <div className="description-section">
         <h3> {content.aboutpage.header[2]} </h3>
         <h6 className="quote quote-one"> {content.aboutpage.quotes[0]} </h6>
         <h6 className="quote quote-two"> {content.aboutpage.quotes[1]} </h6>
         <h6 className="quote quote-three"> {content.aboutpage.quotes[2]} </h6>
       </div>
+      <hr />
       <div className="technologies-section">
         <h3> {content.aboutpage.header[3]} </h3>
         <h4 className="technologies-headers">
@@ -179,6 +180,7 @@ class About extends Component {
           {content.aboutpage.technologiesheaders[5]}{" "}
         </h4>
       </div>
+      <hr />
       <div className="certificate-section">
         <h3> {content.aboutpage.header[4]} </h3>
         <Row>
@@ -188,6 +190,7 @@ class About extends Component {
           </Col>
         </Row>
       </div>
+      <hr />
       <div className="more-section">
         <h3> {content.aboutpage.header[5]} </h3>
         <Container fluid>
