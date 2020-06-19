@@ -7,7 +7,7 @@
         "id" : 1,
         "header" : ["Samantha Holstead", "Web and Mobile Applications Developer"],
         "aboutme" : "Hi! My name is Samantha Holstead and I am a Web and Software Engineer. I graduated from RIT (Rochester Institute of Technology) Croatia with honours this year. I enjoy developing and designing scalable software. I develop Web Applications, Mobile Applications (Android and Swift) and more. I enjoy testing, it is one of my favourite parts of developing! Feel free to contact me with any enquiries!",
-        "button" : ["About me", "Contact me"]
+        "button" : ["About Me", "Contact me"]
     },
     "aboutpage" : {
         "id" : 2,

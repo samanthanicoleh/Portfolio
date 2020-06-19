@@ -26,13 +26,6 @@ class Home extends Component {
                 <FontAwesomeIcon icon={faChevronRight} />{" "}
               </Button>
             </Link>
-            <Link as={Link} to="/contact">
-              <Button style={{margin: '2em'}} variant="flat">
-                {" "}
-                {content.homepage.button[1]}{" "}
-                <FontAwesomeIcon icon={faChevronRight} />{" "}
-              </Button>
-            </Link>
           </div>
         </div>
         <LanguageFooter />

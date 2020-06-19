@@ -40,12 +40,15 @@ import KotlinLogo from "../../assets/images/technologies/kotlin.png";
 import SwiftLogo from "../../assets/images/technologies/swift.png";
 import JUnitLogo from "../../assets/images/technologies/junit.png";
 import SeleniumLogo from "../../assets/images/technologies/selenium.png";
+import JestLogo from "../../assets/images/technologies/jest.png";
+import MochaLogo from "../../assets/images/technologies/mocha.png";
 import JavaLogo from "../../assets/images/technologies/java.png";
 import PythonLogo from "../../assets/images/technologies/python.png";
 import GitHubLogo from "../../assets/images/technologies/github.png";
 import PerforceLogo from "../../assets/images/technologies/perforce.png";
 // certificates
 import ESCertificate from "../../assets/images/certificates/es_certificate.png";
+import TesterCertificate from "../../assets/images/certificates/becomeasoftwaretester_certificate.jpg";
 
 class About extends Component {
   render() {
@@ -159,7 +162,9 @@ class About extends Component {
         </h4>
         <img className="techlogos" src={JUnitLogo} alt="JUnit Logo" />
         <img className="techlogos" src={SeleniumLogo} alt="Selenium Logo" />
-        <span className="testingspan"> react-testing-library </span>
+        <img className="techlogos" src={JestLogo} alt="Jest Logo" />
+        <img className="techlogos" src={MochaLogo} alt="Mocha Logo" />
+        
 
         <h4 className="technologies-headers">
           {" "}
@@ -188,6 +193,10 @@ class About extends Component {
             <img className="certificate-img" src={ESCertificate} alt="Elasticsearch certificate"/>
             <p> Elasticsearch Course</p>
           </Col>
+          <Col className="certificate-columns">
+            <img className="certificate-img" src={TesterCertificate} alt="Software Tester certificate"/>
+            <p> Software Tester Course</p>
+          </Col>      
         </Row>
       </div>
       <hr />
