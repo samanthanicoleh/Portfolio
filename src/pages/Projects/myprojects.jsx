@@ -7,6 +7,7 @@ import { faCircle } from "@fortawesome/free-solid-svg-icons";
 import "./myprojects.css";
 import HTImage from "../../assets/images/projects/healthtourismproject.jpg";
 import MenuAppImage from "../../assets/images/projects/menuapppreview.png";
+import MartianDiceImage from "../../assets/images/projects/martiandicepreview.png";
 import RescuePetsImage from "../../assets/images/projects/rescuepetspreview.png";
 import content from "../../LanguageAPI";
 import LanguageFooter from "../../components/Footer/footer";
@@ -60,7 +61,7 @@ class Projects extends Component {
                 <div className="coursework-item">
                   <MediaCard
                     cardtitle="Martian Dice"
-                    cardimage={RescuePetsImage}
+                    cardimage={MartianDiceImage}
                     carddesc={content.projectspage.projectsdesc[2]}
                     cardlink="https://github.com/samanthanicoleh/MartianDice"
                   />

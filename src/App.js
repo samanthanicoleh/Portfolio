@@ -10,6 +10,10 @@ import Contact from "./pages/Contact/contact";
 import Projects from "./pages/Projects/myprojects";
 
 class App extends Component {
+  componentDidMount(){
+    document.title = "Samantha Nicole"
+  }
+
   render() {
     return (
       <div className="App">
