@@ -12,6 +12,7 @@
     "aboutpage" : {
         "id" : 2,
         "alt": "Slika mene",
+        "mainheader": "O meni",
         "header": ["Firme s kojima sam radila", "(pomaknite pokazivač preko slike za više detalja)", "Kako ljudi opisuju rad sa mnom", "Tehnologije koje koristim",  "Dodatne Diplome", "Više o meni"],
         "jobtitle": ["Applications Developer", "Asistent Profesoru: Secure Web Development", "Web programer: Senior Development Project"],
         "jobperiod": ["Ljeto 2018 i Ljeto 2019", "Siječanj, 2020 - Lipanj, 2020", "Rujan, 2019 - Svibanj, 2020"],

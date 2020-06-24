@@ -12,6 +12,7 @@
     "aboutpage" : {
         "id" : 2,
         "alt": "Image of me",
+        "mainheader": "About me",
         "header": ["Companies I've worked with", "(hover to view more details)", "How People Describe Working with Me", "Technologies I've used", "Additional Certificates", "More about me"],
         "jobtitle": ["Applications Developer", "Teaching Assistant: Secure Web Development", "Web Developer: Senior Development Project"],
         "jobperiod": ["Summer 2018 and Summer 2019", "January 2020 - June 2020", "September 2019 - May 2020"],

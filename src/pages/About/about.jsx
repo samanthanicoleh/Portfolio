@@ -58,7 +58,7 @@ class About extends Component {
   render() {
     return (
       <div className="main-about">
-        <h1 className="headline">About me</h1>
+        <h1 className="headline">{content.aboutpage.mainheader}</h1>
 
         {/* <img
           className="myimage-about"
@@ -252,7 +252,7 @@ class About extends Component {
                       {content.aboutpage.favouritesheaders[0]}
                     </p>
                   </div>
-                  <div className="hide">
+                  <div >
                     <img
                       className="hiddenimg medo"
                       src={MedoImg}
@@ -277,7 +277,7 @@ class About extends Component {
                       {content.aboutpage.favouritesheaders[1]}
                     </p>
                   </div>
-                  <div className="hide">
+                  <div>
                     <img
                       className="hiddenimg"
                       src={PaintingImage}
@@ -305,7 +305,7 @@ class About extends Component {
                       {content.aboutpage.favouritesheaders[2]}
                     </p>
                   </div>
-                  <div className="hide">
+                  <div>
                     <img
                       className="hiddenimg"
                       src={CroatianFlag}
@@ -335,7 +335,7 @@ class About extends Component {
                       {content.aboutpage.favouritesheaders[3]}
                     </p>
                   </div>
-                  <div className="hide">
+                  <div>
                     <div
                       className="hiddenimg"
                       style={{ backgroundColor: "#800d91" }}

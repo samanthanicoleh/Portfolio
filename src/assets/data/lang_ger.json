@@ -12,6 +12,7 @@
     "aboutpage" : {
         "id" : 2,
         "alt": "Bild von mir",
+        "mainheader": "Über mich",
         "header": ["Firmen, mit denen ich zusammengearbeitet habe", "(bewegen Sie den Mauszeiger, um weitere Details anzeigen)", "Wie beschreiben die Leute die Arbeit mit mir?", "Technologien, die ich verwendet habe", "Zusätzliche Zertifikate", "Mehr über mich"],
         "jobtitle": ["Anwendungsentwicklerin", "Lehrassistentin: Sichere Webentwicklung", "Web-Entwicklerin: Senior Development Projekt"],
         "jobperiod": ["Sommer 2018 und Sommer 2019", "Januar 2020 - Juni 2020", "September 2019 - Mai 2020"],
