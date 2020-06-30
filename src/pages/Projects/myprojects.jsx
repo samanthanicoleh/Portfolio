@@ -31,9 +31,10 @@ class Projects extends Component {
             </Col>
             <Col>
               <p>{content.projectspage.healthtourismdesc}</p>
-              <p>
-                {content.projectspage.healthtourismguide[0]}{" "}
-                <a href="/">{content.projectspage.healthtourismguide[1]}</a>.
+              <p style={{'color': '#777777', 'fontStyle' : 'Italic'}}>
+                {content.projectspage.healthtourism_unavailable}
+                {/* {content.projectspage.healthtourismguide[0]}{" "}
+                <a href="/">{content.projectspage.healthtourismguide[1]}</a>. */}
               </p>
             </Col>
           </Row>

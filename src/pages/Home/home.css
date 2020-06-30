@@ -1,48 +1,65 @@
 .main-home {
-    position: absolute;
-    top: 0;
-    left:0;
-    z-index: -1;
-    background-image: url("../../assets/images/laptop.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url("../../assets/images/laptop.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
 }
 
 .main-home h1 {
-    color: #FFA9E5;
-    margin-top: 1em;
+  color: #ffa9e5;
+  margin-top: 1em;
 }
 
 .main-home h3 {
-    margin-left: 5em;
-    margin-top: 1em;
-    color:#CFCFCF;
+  margin-left: 5em;
+  margin-top: 1em;
+  color: #cfcfcf;
 }
 
 .main-home p {
-    margin-top: 2em;
-    color:#CFCFCF;
-    padding-left: 10em;
-    padding-right: 10em;
+  margin-top: 2em;
+  color: #cfcfcf;
+  padding-left: 10em;
+  padding-right: 10em;
 }
 
 .btn-flat {
-    color: #fff!important;
-    background-color: #753863!important;
-    margin-top: 5em;
-    margin-left: 2em;
+  color: #fff !important;
+  background-color: #753863 !important;
+  margin-top: 5em;
+  margin-left: 2em;
 }
 
 .btn-flat:first-of-type {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 .btn-flat:hover {
-    background-color: #8f3f77!important;
+  background-color: #8f3f77 !important;
 }
 
 .buttons {
-    text-align: center;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-home {
+    background-color: #0f0017;
+
+    background-image: linear-gradient(to bottom right, #0f0017, #230136);
+  }
+  .main-home p {
+    margin-top: 2em;
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+  .main-home h3 {
+    margin-left: 1em;
+    margin-top: 1em;
+  }
 }

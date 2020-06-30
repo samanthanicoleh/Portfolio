@@ -69,7 +69,7 @@ class About extends Component {
           <h3> {content.aboutpage.header[0]} </h3>
           <h5>{content.aboutpage.header[1]}</h5>
           <Row style={{ textAlign: "center" }}>
-            <Col>
+            <Col sm>
               <div className="hvrbox">
                 <img
                   className="hvrbox-layer_bottom"
@@ -88,7 +88,7 @@ class About extends Component {
                 </div>
               </div>
             </Col>
-            <Col>
+            <Col sm>
               <div className="hvrbox">
                 <img
                   className="hvrbox-layer_bottom"
@@ -107,7 +107,7 @@ class About extends Component {
                 </div>
               </div>
             </Col>
-            <Col>
+            <Col sm>
               <div className="hvrbox">
                 <img
                   className="hvrbox-layer_bottom"
@@ -252,7 +252,7 @@ class About extends Component {
                       {content.aboutpage.favouritesheaders[0]}
                     </p>
                   </div>
-                  <div >
+                  <div>
                     <img
                       className="hiddenimg medo"
                       src={MedoImg}

@@ -10,14 +10,14 @@ function initContent() {
         localStorage.setItem("language", 0)
     }
     
+    if(localStorage.getItem("language") == 0) {
+        arr = lang_en
+    }
     if(localStorage.getItem("language") == 1) {
         arr = lang_cro
     }
     if(localStorage.getItem("language") == 2) {
         arr = lang_ger
-    }
-    else {
-        arr = lang_en
     }
 
     return arr

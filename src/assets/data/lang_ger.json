@@ -7,7 +7,7 @@
         "id" : 1,
         "header" : ["Samantha Holstead", "Entwicklerin von Web- und Mobil Applikation"],
         "aboutme" : "Halo! Mein Name ist Samantha Holstead und ich bin Web- und Software-Ingenieurin. Ich habe dieses Jahr das RIT (Rochester Institute of Technology) Croatia mit Auszeichnung abgeschlossen. Ich genieße es, skalierbare Software zu entwickeln und zu entwerfen. Ich entwickle Webanwendungen, mobile Anwendungen (Android und Swift) und mehr. Ich genieße es, Code zu testen und sicherzustellen, dass Code reibungslos funktioniert. Fühlen Sie sich frei, mich zu kontaktieren.",
-        "button" : ["Ich brauche eine Website", "Ich brauche eine App", "Ich suche eine Entwicklerin"]
+        "button" : ["Über mich", "Ich brauche eine App", "Ich suche eine Entwicklerin"]
     },
     "aboutpage" : {
         "id" : 2,
@@ -33,6 +33,7 @@
         "id" : 4,
         "headers" : ["Meine Projekte", "Gesundheitstourismus-Projekt", "Uni-Projekte"],
         "healthtourismdesc" : "Ich habe mit 3 anderen an diesem Projekt im Rahmen unseres Senior Development Project für die Universität gearbeitet. Es war toll, die Arbeit mit anderen zu erleben. Unsere Webanwendung wurde von den Sponsoren ausgewählt und die Anwendung wird nun von ihnen verwendet.",
+        "healthtourism_unavailable": "Noch nicht veröffentlicht.",
         "healthtourismguide" : ["Finden Sie die Website", "hier"],
         "projectlink": "Link zum Projekt",
         "projectsdesc": ["Eine Kotlin entwickelte Android-Anwendung, mit der Essen online bestellz werden können. In Node.js erstellte API.", "Eine in Swift entwickelte App, mit der Benutzer Tiere adoptieren können. Enthält einen Algorithmus, mit dem der Benutzer dem am besten geeigneten Haustier zugeordnet werden kann.", "Eine Webanwendung, um das Spiel 'Martian Dice' online zu spielen. Erstellt mit XAMPP."]

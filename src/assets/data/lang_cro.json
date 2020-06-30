@@ -7,7 +7,7 @@
         "id" : 1,
         "header" : ["Samantha Holstead", "Programer za Web i Mobilne Aplikacije"],
         "aboutme" : "Pozdrav! Zovem se Samantha Holstead. Web i Software Engineer sam. Diplomirala sam na RIT-u (Rochester Institute of Technology) Croatia ove godine s pohvalama. Uživam u programiranju i dizajniranjem skalabilnog softvera. Programiram Web Aplikacije, Mobilne Aplikacije (Android i Swift) i još puno toga. Uživam u testiranju, jedan mi je od najdražih dijelova razvoja projekata. Slobodno me kontaktirajte sa bilo kakvim upitama!",
-        "button" : ["Treba mi web stranica", "Treba mi aplikacija", "Tražim zaposlenika"]
+        "button" : ["O meni", "Treba mi aplikacija", "Tražim zaposlenika"]
     },
     "aboutpage" : {
         "id" : 2,
@@ -33,6 +33,7 @@
         "id" : 4,
         "headers" : ["Moji Projekti", "Health Tourism Projekt", "Projekti sa fakulteta"],
         "healthtourismdesc" : "Radila sam na ovom projektu sa još 3 ljudi kao dio našeg zajedničkog završnog projekta za fakultet. Bilo je jako dobro iskusiti rad sa drugima. Naša web applikacija je bila izabrana, i sada je korištena, od strane sponzora.",
+        "healthtourism_unavailable": "Još nije objavljeno.",
         "healthtourismguide" : ["Web aplikaciju možete pronaći", "ovdje"],
         "projectlink": "Link na projekt",
         "projectsdesc": ["Android aplikacija napravljena u Kotlinu u kojem se može naručiti hrana online. API napravljen u Node.js.", "Aplikacija napravljen u Swift-u gdje korisnici mogu udomiti životinje. Uključuje algoritam za prilagođavanje korisnika najboljem ljubimcu.", "Web aplikacija gdje se može igrati igru 'Martian Dice' online. Napravljeno koristeći XAMPP."]

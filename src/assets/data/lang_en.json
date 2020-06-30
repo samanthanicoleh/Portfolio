@@ -33,6 +33,7 @@
         "id" : 4,
         "headers" : ["My Projects", "Health Tourism Project", "Coursework Projects"],
         "healthtourismdesc" : "I worked on this project with 3 others as part of our Senior Development Project for university. It was great to experience work with others. Our web application was chosen by the sponsors and is now used by them.",
+        "healthtourism_unavailable": "Not yet published.",
         "healthtourismguide" : ["Find the website", "here"],
         "projectlink": "Link to project",
         "projectsdesc": ["An android application developed in Kotlin to order food online. API created in Node.js.", "An app developed in Swift where users can adopt animals. Includes an algorithm to match the user to the best suited pet.", "A web application to play the game 'Martian Dice' online. Created using XAMPP."]
