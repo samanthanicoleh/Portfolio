@@ -6,7 +6,7 @@
   background-image: url("../../assets/images/laptop.jpg");
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
 }
 

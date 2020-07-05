@@ -2,13 +2,9 @@ import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faClock,
-  faBriefcase,
-  faPaw,
-  faChild as faHobby,
-  faLanguage,
-  faStar,
+  faBriefcase
 } from "@fortawesome/free-solid-svg-icons";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 // my components
 import MyImage from "../../assets/images/myimageabout.png";
@@ -16,14 +12,12 @@ import MedoImg from "../../assets/images/aboutme/medo.jpg";
 import BellaImg from "../../assets/images/aboutme/bella.jpg";
 import PaintingImage from "../../assets/images/aboutme/painting.jpg";
 import RunningImage from "../../assets/images/aboutme/running.jpg";
-import CroatianFlag from "../../assets/images/aboutme/croatia.png";
-import BritishFlag from "../../assets/images/aboutme/britain.png";
-import GermanFlag from "../../assets/images/aboutme/german.png";
 import DogImage from "../../assets/images/aboutme/dog.png";
 import PizzaImage from "../../assets/images/aboutme/pizza.jpg";
 import "./about.css";
-import LanguageFooter from "../../components/Footer/footer";
 import content from "../../LanguageAPI";
+import LanguageFooter from "../../components/Footer/footer";
+import FavouritesCard from "../../components/Cards/favouritescard";
 // companies logos
 import ImgTecLogo from "../../assets/images/logos/imaginationlogo.png";
 import RitLogo from "../../assets/images/logos/ritcroatialogo.png";
@@ -239,122 +233,15 @@ class About extends Component {
         <hr />
         <div className="more-section">
           <h3> {content.aboutpage.header[5]} </h3>
-          <Container fluid>
-            <Row>
-              <Col>
-                <div classname="pet-section">
-                  <div className="favourites">
-                    <FontAwesomeIcon
-                      className="aboutme-icon paw-icon"
-                      icon={faPaw}
-                    />
-                    <p className="aboutme-title">
-                      {content.aboutpage.favouritesheaders[0]}
-                    </p>
-                  </div>
-                  <div>
-                    <img
-                      className="hiddenimg medo"
-                      src={MedoImg}
-                      alt="My dog Medo."
-                    />
-                    <img
-                      className="hiddenimg bella"
-                      src={BellaImg}
-                      alt="My dog Bella."
-                    />
-                  </div>
-                </div>
-              </Col>
-              <Col>
-                <div classname="hobbies-section">
-                  <div className="favourites">
-                    <FontAwesomeIcon
-                      className="aboutme-icon hobby-icon"
-                      icon={faHobby}
-                    />
-                    <p className="aboutme-title">
-                      {content.aboutpage.favouritesheaders[1]}
-                    </p>
-                  </div>
-                  <div>
-                    <img
-                      className="hiddenimg"
-                      src={PaintingImage}
-                      alt="A painting I did."
-                    />
-                    <img
-                      className="hiddenimg"
-                      src={RunningImage}
-                      alt="Running"
-                    />
-                  </div>
-                </div>
-              </Col>
-            </Row>
-
-            <Row className="second-row">
-              <Col>
-                <div classname="languages-section">
-                  <div className="favourites">
-                    <FontAwesomeIcon
-                      className="aboutme-icon bottom-icon"
-                      icon={faLanguage}
-                    />
-                    <p className="aboutme-title bottom-title">
-                      {content.aboutpage.favouritesheaders[2]}
-                    </p>
-                  </div>
-                  <div>
-                    <img
-                      className="hiddenimg"
-                      src={CroatianFlag}
-                      alt="Croatian flag."
-                    />
-                    <img
-                      className="hiddenimg "
-                      src={BritishFlag}
-                      alt="British flag."
-                    />
-                    <img
-                      className="hiddenimg "
-                      src={GermanFlag}
-                      alt="German flag."
-                    />
-                  </div>
-                </div>
-              </Col>
-              <Col>
-                <div classname="favourites-section">
-                  <div className="favourites">
-                    <FontAwesomeIcon
-                      className="aboutme-icon bottom-icon"
-                      icon={faStar}
-                    />
-                    <p className="aboutme-title bottom-title">
-                      {content.aboutpage.favouritesheaders[3]}
-                    </p>
-                  </div>
-                  <div>
-                    <div
-                      className="hiddenimg"
-                      style={{ backgroundColor: "#800d91" }}
-                    ></div>
-                    <img
-                      className="hiddenimg medo"
-                      src={DogImage}
-                      alt="Cartoon dog"
-                    />
-                    <img
-                      className="hiddenimg bella"
-                      src={PizzaImage}
-                      alt="Pizza."
-                    />
-                  </div>
-                </div>
-              </Col>
-            </Row>
-          </Container>
+          <Row>
+            <Col>
+              <Row>
+                <FavouritesCard cardtitle="Pets" cardimage1={MedoImg} cardimage2={BellaImg} />
+                <FavouritesCard cardtitle="Hobbies" cardimage1={PaintingImage} cardimage2={RunningImage} />
+                <FavouritesCard cardtitle="Favourites" cardimage1={PizzaImage} cardimage2={DogImage} />
+              </Row>
+            </Col>
+          </Row>
         </div>
         <LanguageFooter />
       </div>

@@ -6,8 +6,8 @@ import * as emailjs from 'emailjs-com';
 // my components
 import LinkedInLogo from "../../assets/images/contact/linkedin.png";
 import GitHubLogo from "../../assets/images/contact/github.png";
-import LanguageFooter from "../../components/Footer/footer";
 import content from "../../LanguageAPI";
+import LanguageFooter from "../../components/Footer/footer";
 
 class Contact extends Component {
   constructor(props) {
